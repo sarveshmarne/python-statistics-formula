@@ -30,10 +30,8 @@ if any(value > UCL for value in np):
     print("The Process is in control.") 
 else:
     print("The Process is in control. ")  
-# plt.xlabel(input("Enter the name of x-axis: "))   
-plt.xlabel('Date')
-# plt.ylabel(input("Enter the name of y-axis: "))  
-plt.ylabel('No.of Defectives (np)') 
+plt.xlabel(input("Enter the name of x-axis: "))   
+plt.ylabel(input("Enter the name of y-axis: "))   
 plt.title('np-chart')             
 plt.grid()
 plt.legend()
