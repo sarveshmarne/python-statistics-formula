@@ -34,7 +34,41 @@ p̄ (average fraction defective)
 UCL & LCL
 Fraction defective for every sample
 Plots the P-chart with center line and limits
-
 Determines if the process is in control
-
 Displays fraction defective and percentage defective
+# P Chart — Constant Sample Size
+What It Does:
+Accepts:
+b = number of defectives in each sample
+a = constant sample size
+Calculates:
+p̄ (average fraction defective)
+UCL & LCL using P-chart formulas
+Computes fraction defective for each sample
+Plots:
+Data points
+Center line (p̄)
+UCL & LCL
+Prints:
+Percentage defective
+Fraction defective values
+Allows user to set x-axis and y-axis labels
+States whether the process is in control
+# U Chart — Variable Sample Size
+What It Does:
+Accepts:
+n = sample sizes
+c = number of defects per sample
+Calculates:
+u values (defects per unit)
+ū (center line)
+UCL & LCL for each sample based on varying sample size
+Also computes overall UCL & LCL using average sample size
+Plots:
+u-values
+Center line
+UCL & LCL
+Prints UCL/LCL columns
+Checks if any point exceeds UCL
+Allows custom axis labels
+Displays final in-control / out-of-control result
