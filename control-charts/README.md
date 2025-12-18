@@ -21,6 +21,13 @@ Regardless of chart type (C, np, P, or U), every chart performs the following:
 Used when defect counts per inspection unit are measured
 Sample size is constant and usually 1
 
+**More values to practice.**
+# y_axis = [2,4,1,5,3]
+# y_axis = [12,20,16,15,8,14,13,13,15,11,10,10,18,7,10]
+# y_axis = [6,3,14,7,2,5,12,4,7,3,2,7,6,8,4,10,5,4,13,9]
+# y_axis = [7,3,0,5,8,2,4,5,6,3,8,2,4,9,6,7,10,3,8,4,2,10,4,1,3]
+# y_axis = [6,8,12,5,10,18,5,8,8,6,10,9,6,8,20,5,9,7,6,10,5,8,10,8,7]
+
 **Calculates:**
 c̄ = average number of defects
 Control limits depend only on c̄
