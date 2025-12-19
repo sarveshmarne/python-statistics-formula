@@ -12,7 +12,7 @@ Regardless of chart type (C, np, P, or U), every chart performs the following:
   - Title
   - Axis labels
   - Grid
-  - Legend
+  
 
 ## Unique Features of Each Chart
 
